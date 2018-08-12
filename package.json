@@ -1,0 +1,44 @@
+{
+  "name": "video-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose",
+    "start": "node app.js"
+  },
+  "engines":{
+    "node":"8.9.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "compression": "^1.7.3",
+    "config": "^2.0.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "express-async-errors": "^3.0.0",
+    "fawn": "^2.1.5",
+    "helmet": "^3.13.0",
+    "joi": "^13.5.2",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.3",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^4.0.3"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "moment": "^2.22.2",
+    "supertest": "^3.1.0"
+  }
+}
